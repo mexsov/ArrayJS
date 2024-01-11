@@ -18,10 +18,9 @@ let average = sum / ugiai.length;
 
 // // raskite kiek krepsininku yra didesni uz vidutini krepsninku ugi?
 let count = 0;
-for (let i = 0; average < ugiai.length; i++){
-if (ugiai[i]>average){
+for (let i = 0; i < ugiai.length; i++){
+if (ugiai[i] > average ){
  count++;
     } 
-    console.log(ugiai[i])
 }
 console.log(count);
